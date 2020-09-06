@@ -3,6 +3,7 @@ body{
 	font-size: 18px;
 	line-height:22px;
 	background-color: #558855;
+	min-width: 400px;
 }
 main{
 	background-color: #aaffaa;
@@ -82,5 +83,16 @@ button{
 	}
 	.titulo{
 		width: 90%;
+	}
+}
+@media(max-width: 1500px){
+	section{
+		width: 40%;
+	}
+	.resumo{
+		width: 40%;
+	}
+	.titulo{
+		width: 40%;
 	}
 }
