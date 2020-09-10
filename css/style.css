@@ -92,7 +92,7 @@ button{
 	color: #aaffaa;
 }
 
-@media(max-width: 1500px){
+@media(min-width: 1500px){
 	section{
 		width: 80%;
 	}
