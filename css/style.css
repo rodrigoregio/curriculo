@@ -92,17 +92,6 @@ button{
 	color: #aaffaa;
 }
 
-@media(max-width: 700px){
-	section{
-		width: 90%;
-	}
-	.resumo{
-		width: 90%;
-	}
-	.titulo{
-		width: 90%;
-	}
-}
 @media(max-width: 1500px){
 	section{
 		width: 80%;
@@ -112,5 +101,16 @@ button{
 	}
 	.titulo{
 		width: 80%;
+	}
+}
+@media(max-width: 700px){
+	section{
+		width: 90%;
+	}
+	.resumo{
+		width: 90%;
+	}
+	.titulo{
+		width: 90%;
 	}
 }
