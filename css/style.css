@@ -81,6 +81,7 @@ button{
 .social > a{
 	color: black;
 	margin: 10px;
+	font-size: 23px;
 }
 .social > a:visited{
 	color: black;
