@@ -45,6 +45,7 @@ strong{
 }
 .meu_nome{
 	font-size: 48px;
+	align-content: center;
 }
 h2{
 	padding: 10px;
@@ -74,6 +75,22 @@ button{
 	padding: 5px 10px;
 	
 }
+.social{
+
+}
+.social > a{
+	color: black;
+	margin: 10px;
+}
+.social > a:visited{
+	color: black;
+	margin: 10px;
+}
+.social > a:hover{
+	background-color: #558855;
+	color: #aaffaa;
+}
+
 @media(max-width: 700px){
 	section{
 		width: 90%;
