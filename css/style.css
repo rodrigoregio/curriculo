@@ -116,7 +116,7 @@ a:hover{
 		text-align: center;
 	}
 }
-@media(min-width: 1500px) and (max-width: 700px){
+@media(min-width: 1500px){
 	main{
 		width: 70%;
 		margin: 10px auto 10px auto;
