@@ -92,7 +92,19 @@ button{
 	background-color: #558855;
 	color: #aaffaa;
 }
-
+.extras > h3 > a{
+	color: black;
+	margin: 10px;
+	font-size: 23px;
+}
+.extras > h3 > a:visited{
+	color: black;
+	margin: 10px;
+}
+.extras > h3 > a:hover{
+	background-color: #558855;
+	color: #aaffaa;
+}
 @media(min-width:700px) and (max-width: 1500px){
 	section{
 		width: 80%;
