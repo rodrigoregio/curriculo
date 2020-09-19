@@ -107,9 +107,17 @@ a:hover{
 		width: 85%;
 		margin: auto;
 	}
+	footer{
+		width: 85%;
+		margin: auto;
+	}
 }
 @media(min-width: 1500px) and (max-width: 700px){
 	main{
+		width: 70%;
+		margin: auto;
+	}
+	footer{
 		width: 70%;
 		margin: auto;
 	}
