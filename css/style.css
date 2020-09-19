@@ -76,6 +76,11 @@ strong{
 	font-size: 1.25em;
 	padding: 10px;
 }
+.extras > p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.25em;
+	padding: 10px;
+}
 footer{
 	margin: 10px 0px 10px 0px;
 	background-color: #AAFFAA;
@@ -85,12 +90,27 @@ footer{
 }
 a{
 	color: #335533;
+	text-align: right;
 }
 a:visited{
 	color: #335533;
+	text-align: right;
 }
 a:hover{
 	color: #AAFFAA;
 	background-color: #335533;
 	padding: 10px;
+	text-align: right;
+}
+@media(min-width: 700px){
+	main{
+		width: 85%;
+		margin: auto;
+	}
+}
+@media(min-width: 1500px) and (max-width: 700px){
+	main{
+		width: 70%;
+		margin: auto;
+	}
 }
