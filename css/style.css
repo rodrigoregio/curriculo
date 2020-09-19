@@ -17,13 +17,17 @@ main{
 	background-color: #AAFFAA;
 	padding: 10px;
 	border-radius: 10px;
+	color: #335533;
 }
 header{
 	text-align: center;
 }
-.titulo{
+.titulo > h2{
 	font-family: 'Architects Daughter', cursive;
-	font-size: 2em;
+	font-size: 3em;
+}
+.titulo > h1{
+	font-size: 1.5em;
 }
 .resumo{
 	font-family: 'Solway', serif;
@@ -43,7 +47,7 @@ header{
 .educacao > ul{
 	margin-top: 10px;
 }
-.educacao > h2 {
+h2 {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 2em;
 	margin: 10px 10px 10px 10px;
@@ -59,11 +63,6 @@ header{
 	font-size: 1.3em;
 	padding: 10px;
 }
-.experiencia > h2{
-	font-family: 'Architects Daughter', cursive;
-	font-size: 2em;
-	padding: 10px;
-}
 .experiencia > h3{
 	font-family: 'Solway', serif;
 	font-size: 1.25em;
@@ -75,5 +74,23 @@ strong{
 .extras{
 	font-family: 'Solway', serif;
 	font-size: 1.25em;
+	padding: 10px;
+}
+footer{
+	margin: 10px 0px 10px 0px;
+	background-color: #AAFFAA;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+}
+a{
+	color: #335533;
+}
+a:visited{
+	color: #335533;
+}
+a:hover{
+	color: #AAFFAA;
+	background-color: #335533;
 	padding: 10px;
 }
