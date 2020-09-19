@@ -27,7 +27,13 @@ main{
 	margin: 0 auto;
 	text-align: center;
 }
-
+.meu_nome{
+	line-height: 0.75em;
+}
+.meu_cargo{
+	line-height:0.85em;
+	font-family: 'Grenze Gotisch', cursive;
+}
 section{
 	padding: 20px;
 	width: 60%;
@@ -105,7 +111,7 @@ button{
 	background-color: #558855;
 	color: #aaffaa;
 }
-@media(min-width:700px) and (max-width: 1500px){
+@media(max-width: 1500px){
 	section{
 		width: 80%;
 	}
