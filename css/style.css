@@ -21,18 +21,6 @@ main{
 header{
 	text-align: center;
 }
-<<<<<<< Updated upstream
-
-section{
-	padding: 20px;
-	width: 60%;
-	margin: 0 auto;
-}
-.experiencia{
-	background-color: #ddffdd;
-}
-=======
->>>>>>> Stashed changes
 .titulo{
 	font-family: 'Architects Daughter', cursive;
 	font-size: 2em;
@@ -81,21 +69,8 @@ section{
 	font-size: 1.25em;
 	padding-top: 10px;
 }
-<<<<<<< Updated upstream
-@media(max-width: 1500px){
-	section{
-		width: 80%;
-	}
-	.resumo{
-		width: 80%;
-	}
-	.titulo{
-		width: 80%;
-	}
-=======
 strong{
 	font-weight: bolder;
->>>>>>> Stashed changes
 }
 .extras{
 	font-family: 'Solway', serif;
