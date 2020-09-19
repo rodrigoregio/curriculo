@@ -109,13 +109,21 @@ a:hover{
 	}
 	footer{
 		width: 85%;
-		margin: auto;
+		margin: 10px 0px 10px 0px;
+		background-color: #AAFFAA;
+		border-radius: 10px;
+		padding: 10px;
+		text-align: center;
 	}
 }
 @media(min-width: 1500px) and (max-width: 700px){
 	main{
 		width: 70%;
-		margin: auto;
+		margin: 10px 0px 10px 0px;
+		background-color: #AAFFAA;
+		border-radius: 10px;
+		padding: 10px;
+		text-align: center;
 	}
 	footer{
 		width: 70%;
