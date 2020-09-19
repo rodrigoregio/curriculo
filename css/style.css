@@ -1,135 +1,116 @@
+/*
+	cor fundo body #335533
+	cor fundo main #AAFFAA
+	cor destaque exp #DDFFDD
+
+	fontes
+	font-family: 'Architects Daughter', cursive; //mais handwriting
+	font-family: 'Solway', serif;
+*/
+
 body{
-	/*font-family: 'Architects Daughter', cursive;
-	font-family: 'Roboto', sans-serif;*/
-	font-size: 18px;
-	line-height:22px;
-	background-color: #558855;
+	background-color: #335533;
+	margin: 10px;
 	min-width: 500px;
 }
 main{
-	background-color: #aaffaa;
-	margin:15px;
-	padding:15px;
+	background-color: #AAFFAA;
+	padding: 10px;
 	border-radius: 10px;
+	color: #335533;
 }
-
-#header{
-	/*display: flex;*/
+header{
 	text-align: center;
 }
-.resumo_texto{
-	text-align:justify;
+.titulo > h2{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 3em;
+}
+.titulo > h1{
+	font-size: 1.5em;
 }
 .resumo{
-	width: 60%;
-	justify-content: space-around;
-	/*margin-right: 50px;*/
-	margin: 0 auto;
-	text-align: center;
+	font-family: 'Solway', serif;
+	padding: 10px;
+	text-align: justify;
+	font-size: 1.2em;
 }
-.meu_nome{
-	line-height: 0.75em;
+.educacao{
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background-color: #DDFFDD;
+	border-radius: 10px;
+	border: #335533 solid 2px;
 }
-.meu_cargo{
-	line-height:0.85em;
-	font-family: 'Grenze Gotisch', cursive;
+.educacao > ul{
+	margin-top: 10px;
 }
-section{
-	padding: 20px;
-	width: 60%;
-	margin: 0 auto;
+h2 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 2em;
+	margin: 10px 10px 10px 10px;
 }
-.experiencia{
-	background-color: #ddffdd;
+.lista_itens{
+	list-style-type: none;
+	font-family: 'Solway', serif;
+	font-size: 1.25em;
+	padding-top: 5px;
 }
-.titulo{
-	font-weight: bold;
-	padding: 20px;
-	width: 100%;
+.experiencia {
+	font-family: 'Solway', serif;
+	font-size: 1.3em;
+	padding: 10px;
+}
+.experiencia > h3{
+	font-family: 'Solway', serif;
+	font-size: 1.25em;
+	padding-top: 10px;
 }
 strong{
-	font-weight: bold;
+	font-weight: bolder;
 }
-.meu_nome{
-	font-size: 48px;
-	align-content: center;
-}
-h2{
+.extras{
+	font-family: 'Solway', serif;
+	font-size: 1.25em;
 	padding: 10px;
-	font-size: 40px;
 }
-h1{
-	font-size: 44px;
-}
-h3{
-	font-size: 28px;
-}
-h4{
-	font-size: 24px;
-}
-h3, h4, p{
-	padding: 5px;
+.extras > p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.25em;
+	padding: 10px;
 }
 footer{
+	margin: 10px 0px 10px 0px;
+	background-color: #AAFFAA;
+	border-radius: 10px;
+	padding: 10px;
 	text-align: center;
-	color: #aaffaa;
 }
-ul{
-	list-style-type: disc;
+a{
+	color: #335533;
+	text-align: right;
 }
-button{
-	background-color: #ddffdd;
-	padding: 5px 10px;
-	
+a:visited{
+	color: #335533;
+	text-align: right;
 }
-.social{
-
+a:hover{
+	color: #AAFFAA;
+	background-color: #335533;
+	padding: 10px;
+	text-align: right;
 }
-.social > a{
-	color: black;
-	margin: 10px;
-	font-size: 23px;
-}
-.social > a:visited{
-	color: black;
-	margin: 10px;
-}
-.social > a:hover{
-	background-color: #558855;
-	color: #aaffaa;
-}
-.extras > h3 > a{
-	color: black;
-	margin: 10px;
-	font-size: 23px;
-}
-.extras > h3 > a:visited{
-	color: black;
-	margin: 10px;
-}
-.extras > h3 > a:hover{
-	background-color: #558855;
-	color: #aaffaa;
-}
-@media(min-width:700px) and (max-width: 1500px){
-	section{
-		width: 80%;
-	}
-	.resumo{
-		width: 80%;
-	}
-	.titulo{
-		width: 80%;
+@media(min-width: 700px){
+	main{
+		width: 85%;
+		margin: auto;
 	}
 }
-@media(max-width: 700px){
-	section{
-		width: 90%;
-	}
-	.resumo{
-		width: 90%;
-	}
-	.titulo{
-		width: 90%;
+@media(min-width: 1500px) and (max-width: 700px){
+	main{
+		width: 70%;
+		margin: auto;
 	}
 }
